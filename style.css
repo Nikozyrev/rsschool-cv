@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 30px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+}
+
+main {
+    display: flex;
+}
+
+.left-corner {
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
+
+.right-corner {
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    background-color: antiquewhite;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.PortraitImg {
+    height: 300px;
+    width: 280px;
+    
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px 10px;
+}
+
+.year {
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+
+
+.GitHubLogo {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+}
+
+.RSSchoolLogo {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+}
+
+pre {
+    text-align: left;
+}
